@@ -41,7 +41,7 @@ Copy the example environment file and fill in your values:
 cp .env.example .env
 ```
 
-Edit `.env` with your actual credentials:
+Edit `.env` with your local credentials. Do not commit this file:
 
 ```properties
 # Database
@@ -113,8 +113,6 @@ src/
 │   │   └── service/      # Business logic
 │   └── resources/
 │       └── application.properties
-└── test/
-    └── java/             # Unit tests
 ```
 
 ## Security
